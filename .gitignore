@@ -7,10 +7,10 @@
 .env.*
 *.env
 
-# 2. Walkthrough and Readme files
-[Rr][Ee][Aa][Dd][Mm][Ee]*
+# 2. Walkthrough files
 [Ww][Aa][Ll][Kk][Tt][Hh][Rr][Oo][Uu][Gg][Hh]*
-*.md
+walkthrough.md
+frontend/README.md
 
 # 3. Testing and training images, media, videos, and datasets
 Demo Vd/
