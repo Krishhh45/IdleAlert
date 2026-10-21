@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+opencv-python
+ultralytics
+torch
+torchvision
+numpy
+sqlalchemy
+pydantic
+pillow

@@ -1,0 +1,79 @@
+# =========================================================================
+# IdleAlert .gitignore
+# =========================================================================
+
+# 1. Environment and credentials
+.env
+.env.*
+*.env
+
+# 2. Walkthrough and Readme files
+[Rr][Ee][Aa][Dd][Mm][Ee]*
+[Ww][Aa][Ll][Kk][Tt][Hh][Rr][Oo][Uu][Gg][Hh]*
+*.md
+
+# 3. Testing and training images, media, videos, and datasets
+Demo Vd/
+**/uploads/
+**/samples/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.webp
+*.tiff
+
+# Allow frontend branding icons only
+!frontend/src/assets/*.svg
+!frontend/public/*.svg
+
+# 4. Machine Learning & Neural Network weights (large binary models)
+*.pt
+*.pth
+*.onnx
+*.bin
+*.weights
+*.engine
+
+# 5. Database and data stores
+*.db
+*.sqlite
+*.sqlite3
+
+# 6. Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# 7. Node / Frontend
+node_modules/
+.vite/
+dist/
+dist-ssr/
+*.local
+
+# 8. Temporary inspect and helper scripts
+backend/inspect_*.py
+backend/find_*.py
+
+# 9. IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
