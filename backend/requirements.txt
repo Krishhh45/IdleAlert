@@ -9,3 +9,4 @@ numpy
 sqlalchemy
 pydantic
 pillow
+imageio-ffmpeg
